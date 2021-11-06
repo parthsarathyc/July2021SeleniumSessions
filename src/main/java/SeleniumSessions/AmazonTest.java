@@ -8,6 +8,7 @@ public class AmazonTest {
 		BrowserUtil br =new BrowserUtil(); 
 		br.initDriver("chrome");
 		br.launchUrl("https://amazon.com");
+		System.out.println("url is launched");//GIT session - file is modified 
 		String title =br.pageTitle();
 		System.out.println(title);
 		br.quitBrowser(); 
